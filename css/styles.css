@@ -67,6 +67,18 @@ p {
   right: 30%;
 }
 
+@media (max-width:1028px){
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+    margin: 50px auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
 .button-icon {
   margin: 0 10px 0 0;
 }
@@ -127,4 +139,20 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.soc-icon {
+  margin: 0 20px 20px 0;
 }
