@@ -62,7 +62,7 @@ p {
 }
 
 .navbar-color-white {
-  color: white;
+  color: white !important; 
 }
 
 .iphone-image {
